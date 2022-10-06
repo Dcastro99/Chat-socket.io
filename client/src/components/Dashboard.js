@@ -1,10 +1,12 @@
 import React from 'react'
 import Sidebar from './Sidebar'
+import '../style/dashboard.css'
 
 export default function Dashboard({ id }) {
   return (
     <div>
-      <Sidebar id={id} />
+      <div id="d-flex" style={{ height: '100vh' }}> <Sidebar id={id} /></div>
+
     </div>
   )
 }
